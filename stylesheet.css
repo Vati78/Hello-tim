@@ -40,12 +40,6 @@ main {
     background-image: url(images/Bg-image2.jpg);
     background-attachment: fixed;
     background-size: cover;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 50px;
-    border: solid;
-    background: linear-gradient(to left, rgb(224, 137, 211), rgb(215, 65, 192));
-    border-radius: 20px 20px 20px 20px ;
 }
 
 main section{
@@ -120,6 +114,16 @@ h1, header {
     width: 30%;
     display: flex;
     justify-content: end;
+}
+
+.main {
+    background-attachment: fixed;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    border: solid;
+    background: linear-gradient(to left, rgb(224, 137, 211), rgb(215, 65, 192));
+    border-radius: 20px 20px 20px 20px ;
 }
 
 
