@@ -1,3 +1,7 @@
+.mobile{
+    display: none;
+}
+
 body {
     font-family: "Ubuntu", sans-serif;
     margin: 0;
@@ -162,5 +166,9 @@ iframe {
 
     nav div {
         display: none;
+    }
+
+    .mobile {
+        display: block;
     }
 }
