@@ -154,4 +154,9 @@ iframe {
     .logo {
         display: none;
     }
+
+    .conteneur {
+        display: block;
+        align-items: center;
+    }
 }
