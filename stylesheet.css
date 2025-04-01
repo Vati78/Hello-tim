@@ -2,8 +2,8 @@
     display: none;
 }
 
-.mobile:hover + div {
-    content: url("images/home.png");
+.home_button:hover + .mobile {
+    display: block;
 }
 
 body {
