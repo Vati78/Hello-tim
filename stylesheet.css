@@ -30,10 +30,6 @@ nav a {
     padding-left: 10px;
 }
 
-.home_button:hover + .mobile {
-    display: block;
-}
-
 nav a:hover{
     text-decoration: underline;
     color:#454AAC;
@@ -175,4 +171,9 @@ iframe {
     .home_button {
         display: block;
     }
+
+    .home_button:hover + .mobile {
+        display: block;
+    }
+    
 }
