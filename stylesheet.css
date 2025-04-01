@@ -2,6 +2,10 @@
     display: none;
 }
 
+.mobile:hover {
+    content: url("images/home.png");
+}
+
 body {
     font-family: "Ubuntu", sans-serif;
     margin: 0;
