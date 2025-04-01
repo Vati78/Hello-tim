@@ -2,7 +2,7 @@
     display: none;
 }
 
-.mobile:active {
+.mobile:hover + div {
     content: url("images/home.png");
 }
 
