@@ -35,6 +35,11 @@ nav a:hover{
     color:#454AAC;
 }
 
+.home_button:hover + .mobile {
+    content: url("images/home.png");
+    display: block;
+}
+
 header, footer {
     background-color: #FFFFFF;
     background-size: cover;
@@ -154,7 +159,7 @@ iframe {
 }
 
 
-@media all and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .logo {
         display: none;
     }
@@ -171,9 +176,6 @@ iframe {
     .home_button {
         display: block;
     }
-
-    .home_button:hover + .mobile {
-        display: block;
-    }
     
 }
+
