@@ -165,7 +165,7 @@ iframe {
 
 @media screen and (max-width: 1000px) {
     body {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .conteneur {
@@ -193,6 +193,5 @@ iframe {
         display: flex;
         flex-direction: column;
     }
-    
 }
 
