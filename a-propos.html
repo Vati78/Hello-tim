@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-
 <html lang="fr">
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Galatr'Epicerie - Accueil</title>
     <link href="stylesheet.css" rel="stylesheet"/>
 
@@ -20,23 +18,35 @@
                 <a href="https://www.youtube.com/@Galatr-Epicerie" target="_blank"><img src="images/youtube.png" alt="logo instagram" class="youtube"></a>
             </div>
             <div class="central"><h1><a href="accueil.html" class="no-underline">Galatr'Epicerie</a></h1></div>
-            <div></div>
         </div>
     </header>
 
     <nav>
-        <div class="left">
+        <div class="pc">
             <a href="accueil.html">Accueil</a>
             <a href="a-propos.html">A propos</a>
             <a href="">Notre boutique en ligne</a>
             <a href="contact.html">Contact</a>
-        </div>  
-        <div class="right">
             <form action="" method="get">
                 <label for="search">Logo</label>
                 <input type="search" placeholder="Rechercher un produit" name="search" size="20">
             </form>
+        </div> 
+
+        <div class=mobile>
+            <img src="images/home_b.png" class="home_button" alt="home button">
+            <div class="hidden">
+                <form action="" method="get">
+                    <label for="search">Logo</label>
+                    <input type="search" placeholder="Rechercher un produit" name="search" size="20">
+                </form>
+                <a href="accueil.html">Accueil</a>
+                <a href="a-propos.html">A propos</a>
+                <a href="">Notre boutique en ligne</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </div>
+        
     </nav>
 
     <main>

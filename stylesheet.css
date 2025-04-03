@@ -52,6 +52,7 @@ main {
     background-image: url(images/Bg-image2.jpg);
     background-attachment: fixed;
     background-size: cover;
+    border-top: solid #FFFFFF;
 }
 
 main section{
