@@ -175,6 +175,7 @@ iframe {
 @media screen and (max-width: 1000px) {
     body {
         font-size: 15px;
+        border-left-style: none;
     }
 
     .conteneur {
