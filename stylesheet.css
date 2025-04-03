@@ -18,19 +18,13 @@ nav {
     top: 0;
     background-color: #FFFFFF;
     padding: 20px;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
 }
 
 nav a {
     text-decoration: none;
     color: black;
-}
-
-.left a, .right form{
-    align-items: start;
-    padding-right: 10px;
-    padding-left: 10px;
 }
 
 nav a:hover{
