@@ -1,11 +1,11 @@
-.mobile, .home_button {
+.mobile * {
     display: none;
 }
 
 body {
     font-family: "Ubuntu", sans-serif;
     margin: 0;
-    font-size: 20px;
+    font-size: 1fr;
     border-left: 3px;
     border-left-color: #454AAC;
     border-left-style: solid;
@@ -99,7 +99,7 @@ main section{
 
 h1 {
     font-family: "Rouge Script", cursive;
-    font-size: 60px;
+    font-size: 3fr;
 }
 
 h1, header {
@@ -164,17 +164,21 @@ iframe {
 
 
 @media screen and (max-width: 1000px) {
-    .logo {
-        display: none;
-    }
-
     .conteneur {
         display: block;
         align-items: center;
     }
 
-    nav div {
+    .mobile * {
+        display: block;
+    }
+
+    .pc *, .pc, .logo, .hidden{
         display: none;
+    }
+
+    nav {
+        justify-content: flex-start;
     }
 
     .home_button {
