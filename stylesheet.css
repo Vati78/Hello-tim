@@ -13,7 +13,6 @@ body {
 
 nav {
     display: flex;
-    grid-template-rows: 50% 50%;
     position: sticky;
     top: 0;
     background-color: #FFFFFF;
