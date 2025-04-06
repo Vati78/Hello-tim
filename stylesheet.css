@@ -61,7 +61,6 @@ main section{
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    padding: 30px;
     row-gap: 20px;
 }
 
@@ -76,7 +75,7 @@ main section{
 .grid div {
     border-radius: 10px;
     margin: 10px;
-    padding: 25px;
+    padding: 3%;
     text-align: justify;
 }
 
