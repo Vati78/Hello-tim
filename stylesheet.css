@@ -237,7 +237,7 @@ iframe {
 
     nav {
         display: flex;
-        align-items: start;
+        justify-content: flex-start;
     }
 
     .pc *{
@@ -246,6 +246,12 @@ iframe {
 
     .menu-icon {
         display: block;
+        margin: 5%;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
     }
 }
 
