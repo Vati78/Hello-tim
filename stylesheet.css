@@ -124,14 +124,19 @@ em {
     border-radius: 4px;
     background-color: rgb(215, 65, 192);
     text-decoration: none;
-    color: black;
+    color: #454AAC;
     padding: 5px;
-    margin: auto;
+    margin: 20px auto 0 auto;
+    display: block;
+    width: fit-content;
+    border-style: solid;
+    border-color: #454AAC;
 }
 
 .lien:hover{
-    background-color: black;
+    background-color: #454AAC;
     color: rgb(215, 65, 192);
+    border-color: rgb(215, 65, 192);
 }
 
 .conteneur {
