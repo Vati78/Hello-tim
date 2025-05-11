@@ -160,6 +160,10 @@ h1, header {
     content: url(images/youtube_b.png);
 }
 
+.produits {
+    width: auto;
+}
+
 form {
     align-items: end;
 }
