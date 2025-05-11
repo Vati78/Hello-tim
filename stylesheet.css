@@ -1,7 +1,3 @@
-.mobile * {
-    display: none;
-}
-
 body {
     font-family: "Ubuntu", sans-serif;
     margin: 0;
@@ -203,37 +199,53 @@ iframe {
     width: 50%;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+.menu-mobile {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#menu-toggle:checked + label + .menu-mobile {
+    display: flex;
+}
 
 @media screen and (max-width: 1000px) {
     body {
-        font-size: 15px;
-        border-left-style: none;
+        border-left: 0;
     }
 
-    .conteneur {
-        display: block;
-        align-items: center;
-    }
-
-    .mobile * {
-        display: block;
-    }
-
-    .pc *, .pc, .logo, .hidden{
+    .logo {
         display: none;
     }
 
     nav {
-        justify-content: flex-start;
+        align-items: start;
     }
 
-    .home_button {
+    .pc *{
+        display: none;
+    }
+
+    .menu-icon {
         display: block;
     }
-
-    .grid {
-        display: flex;
-        flex-direction: column;
-    }
 }
+
 
