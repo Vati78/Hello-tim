@@ -79,19 +79,19 @@ main section{
 .section-1 {
     grid-column: 1 / 9;
     grid-row: 1 / 2;
-    background-color: aqua;
+    background-color: #ead6cd;
 }
 
 .section-2 {
     grid-column: 2 / 10;
     grid-row: 2 / 3;
-    background-color: bisque;
+    background-color: #E7C0B5;
 }
 
 .section-3 {
     grid-column: 3 / 11;
     grid-row: 3 / 4;
-    background-color: rgb(88, 104, 118);
+    background-color: #e5af9c;
 }
 
 h1 {
