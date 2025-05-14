@@ -186,9 +186,9 @@ form {
 }
 
 iframe {
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%;
+    margin: 0 15% 0 15%;
+    width: 70%;
+    min-height: 150px;
 }
 
 #menu-toggle {
@@ -252,6 +252,16 @@ iframe {
     .grid {
         display: flex;
         flex-direction: column;
+    }
+
+    .grid div {
+        margin: 5px 0 5px 0;
+    }
+
+    iframe {
+        margin: 0;
+        width: 100%;
+        min-height: 150px;
     }
 }
 
